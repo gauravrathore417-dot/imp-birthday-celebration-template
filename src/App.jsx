@@ -9,6 +9,7 @@ import Gallery from "./components/Gallery";
 import Hearts from "./components/Hearts";
 import MessageCard from "./components/MessageCard";
 import MusicPlayer from "./components/MusicPlayer";
+import { useEffect } from "react";
 
 gsap.registerPlugin(ScrollToPlugin);
 
@@ -82,6 +83,10 @@ function App() {
     // Stop effects after some time
     setTimeout(() => setShowEffects(false), 10000);
   };
+  useEffect(() => {
+  gsap.set(page1Ref.current, { visibility: "visible", x: "0%", opacity: 1 });
+}, []);
+
 
   return (
     <div className="app">
@@ -92,7 +97,7 @@ function App() {
       <div
         ref={page1Ref}
         className={`page ${currentPage === 1 ? "active" : ""}`}
-        style={{ visibility: currentPage === 1 ? "visible" : "hidden" }}
+        style={{ }}
       >
         <section className="hero">
           <h1 id="heroTitle">
