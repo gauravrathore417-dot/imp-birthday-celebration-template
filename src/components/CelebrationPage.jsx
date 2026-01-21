@@ -30,7 +30,7 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
   const slides = [
     {
       icon: "✨",
-      text: "Let's Make Your Day a",
+      text: "No flower blooms, no bird may sing, Like the joy your presence brings Today the world whispers just for you,The skies are brighter, the sun more true",
       type: "announcement",
     },
     {
