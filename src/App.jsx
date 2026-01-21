@@ -103,16 +103,16 @@ function App() {
           <h1 id="heroTitle">
             {birthdayReached ? (
               <>
-                Happy Birthday <span className="highlight">Vaibhav</span> 🎂
+                Happy Birthday <span className="highlight">Harshu❤️</span> 🎂
               </>
             ) : (
               <>
-                Counting down to <span className="highlight">Vaibhav B'Day's</span>{" "}
-                special day 🎂
+                Counting down to <span className="highlight">Harshu❤️ B'Day's</span>{" "}
+                A very special day ✨🎂
               </>
             )}
           </h1>
-          <p>You know i love you the most 💗</p>
+          <p>You know I love you the most 💗</p>
         </section>
 
         <Countdown
@@ -124,9 +124,9 @@ function App() {
           <h2 id="teaserHeading">
             {birthdayReached
               ? "💖 Ready for your surprise! 💖"
-              : "✨ A special celebration awaits you at midnight... ✨"}
+              : "✨ A special celebration awaits you at midnight.. ✨"}
           </h2>
-          <p className="teaser-hint">Something magical is about to unfold 💫</p>
+          <p className="teaser-hint">Something magical is about to unfold Princess💖 💫</p>
         </section>
 
         <button
@@ -135,7 +135,7 @@ function App() {
           disabled={!birthdayReached}
           onClick={() => goToPage(2)}
         >
-          🎀 Let's Celebrate
+          🎀 Let's Celebrate your special day
         </button>
       </div>
 
