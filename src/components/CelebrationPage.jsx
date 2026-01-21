@@ -30,21 +30,24 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
   const slides = [
     {
       icon: "✨",
-      text: "It's Your Special Day Yeyey!",
+      text: "Let's Make Your Day a",
       type: "announcement",
     },
     {
       icon: "✨",
-      text: "Do you wanna see what I made??",
+      text: `I've made a gift from my heart's own fire,
+         A little token of my desire
+         Do you want to see what I've spun?
+         A piece of love meant for only one`,
       type: "question",
       options: [
-        { text: "Yes!", value: "yes" },
-        { text: "No", value: "no" },
+        { text: "Show Me", value: "yes" },
+        { text: "I Can't Resist", value: "no" },
       ],
     },
     {
       icon: "✨",
-      text: "Have a look at it, Harshu",
+      text: "Each stroke, each hue, each tender part Is stitched with whispers of my heart Look closely now, it’s made for you A world of love, forever true.",
       type: "announcement",
     },
   ];
