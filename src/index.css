@@ -1,8 +1,18 @@
+:root {
+  --bg-main: #F4F1FA;
+  --primary: #9B7EDE;
+  --accent: #F5B7B1;
+  --text-dark: #2E2A3A;
+  --card-bg: rgba(255, 255, 255, 0.85);
+  --glow: 0 10px 30px rgba(155, 126, 222, 0.3);
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
-  background: linear-gradient(135deg, #ffd1dc 0%, #ffe6ee 100%);
+  background: linear-gradient(135deg, var(--bg-main), #EDE7F9);
+  color: var(--text-dark);
   text-align: center;
   color: #333;
   scroll-behavior: smooth;
