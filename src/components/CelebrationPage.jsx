@@ -178,7 +178,7 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
       gsap.to(".celebration-page", {
         background:
           "linear-gradient(135deg, #1a0a1f 0%, #2d1b3d 50%, #1f0f29 100%)",
-        duration: 1.5,
+        duration: 2.5,
         ease: "power2.inOut",
       });
       return;
