@@ -3,7 +3,7 @@ import "./Countdown.css";
 
 function Countdown({ onBirthdayReached, birthdayReached }) {
   // 🎯 Set your birthday here (future date)
-  const targetDate = new Date(2026, 0, 20, 0, 0, 0); // Jan 22, 2026 at 00:00:00
+  const targetDate = new Date(2026, 0, 28, 0, 0, 0); // Jan 22, 2026 at 00:00:00
 
   // Initialize time left
   const getTimeLeft = () => {
