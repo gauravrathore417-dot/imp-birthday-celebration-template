@@ -112,7 +112,7 @@ function App() {
               </>
             )}
           </h1>
-          <p>You know I love you the most 💗</p>
+          <p>Today feels less like a celebration, and more like the cosmos waiting for its compliment for making you 💗</p>
         </section>
 
         <Countdown
@@ -178,7 +178,7 @@ function App() {
         <Gallery isActive={currentPage === 4} />
         <section className="final">
           <h2 className="final-message">💖 Forever Yours — Vaibhav 💖</h2>
-          <p className="final-subtitle">Your personalized closing message ✨</p>
+          <p className="final-subtitle">Somewhere between all my ordinary days, you became the part I look forward to the most✨</p>
         </section>
       </div>
 
