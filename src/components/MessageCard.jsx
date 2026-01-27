@@ -13,13 +13,25 @@ function MessageCard({ isActive }) {
   const curtainHintRef = useRef(null);
   const messageContentRef = useRef(null);
 
-  const message = `Rgghav,
+  const message = `On your birthday, the stars align,
+to celebrate a heart like mine.
+I make a wish, both soft and true,
+that every dream leads back to you.,
 
-I love you.
+On a day that exists just to celebrate you, I hope your heart always feels as weightless as it does when our laughter tangles together, and that your dreams shine as brightly as those quiet moments when the sky turns gold and you’re standing next to me.
 
-Happy Birthday! 🎉
+When you lean in to blow out the candles, don’t count the years — count the ways you’ve grown into someone even more captivating. Another level unlocked, another chapter added to the beautiful adventure that is your life.
 
-— [Your Name]`;
+I wish for months ahead that overflow with happiness we can’t help but laugh about, little escapes that turn into our favorite stories, and a love that keeps finding new ways to pull us closer.
+
+Today, while everyone marks the day you arrived in this world, I’m quietly grateful for the way you walked into mine and made it feel like home.
+
+And I can’t wait to write what comes next with you — more playful chaos, more late-night whispers, more moments we’ll pretend to be embarrassed about, and a love that keeps growing in the most beautiful, unexpected ways ✨💕
+I love you
+
+Happy Birthday Harshu! 💌✨🎉
+
+—Yours One & Only`;
 
   // Handle page transitions
   useEffect(() => {
